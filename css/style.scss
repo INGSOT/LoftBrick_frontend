@@ -248,7 +248,8 @@ ol {
 
 .btn_brown,
 .btn_black,
-.btn_grey {
+.btn_grey,
+.btn_orange {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
@@ -272,6 +273,11 @@ ol {
 .btn_grey {
   background-color: $grey;
   color: $black;
+}
+
+.btn_orange {
+  background-color: $orange;
+  color: #fff;
 }
 
 .titleM {
@@ -1214,6 +1220,12 @@ header {
       &.on {
         opacity: 1;
         pointer-events: all;
+        .header_catalog {
+          .cont {
+            opacity: 1;
+            pointer-events: all;
+          }
+        }
       }
       .head {
         width: 100%;
@@ -1253,8 +1265,6 @@ header {
         }
         .cont {
           position: relative;
-          opacity: 1;
-          pointer-events: all;
           padding: 24px 0;
           background-color: transparent;
           a {
@@ -2525,7 +2535,7 @@ header {
       gap: 10px;
       width: 100%;
       height: 40px;
-      background-color: $black;
+      background-color: $orange;
       color: #fff;
       font-size: 14px;
       text-transform: uppercase;
@@ -2544,7 +2554,8 @@ header {
       text-align: center;
       font-size: 14px;
       line-height: 38px;
-      background-color: $grey;
+      background-color: $black;
+      color: #fff;
       text-transform: uppercase;
       &:hover {
         transform: scale(0.95);
@@ -2877,7 +2888,8 @@ header {
         .label {
           padding: 0 5px;
           font-size: 12px;
-          background-color: #b4d4a2;
+          background-color: $black;
+          color: #fff;
         }
       }
     }
@@ -3196,7 +3208,7 @@ header {
             transform: scale(0.95);
           }
           &:first-child {
-            background-color: $black;
+            background-color: $orange;
             color: #fff;
             width: 133px;
             &::before {
@@ -3207,9 +3219,9 @@ header {
             }
           }
           &:nth-child(2) {
-            background-color: $grey;
+            background-color: $black;
             width: 230px;
-            color: $black;
+            color: #fff;
           }
           &:nth-child(3) {
             border: 1px solid transparent;
@@ -3438,6 +3450,75 @@ header {
   }
 }
 
+.free_sample {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: $orange;
+  position: relative;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  padding-right: 14px;
+  div {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+  p {
+    display: none;
+  }
+  button {
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 950px) {
+  .free_sample {
+    &.decor_top {
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+    div {
+      font-size: 24px;
+      line-height: 36px;
+      &.decor_bottom {
+        &::before,
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .free_sample {
+    padding: 40px 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: start;
+    img {
+      width: 30%;
+    }
+    div {
+      width: calc(70% - 30px);
+    }
+    p {
+      display: block;
+    }
+    a {
+      margin: 0 0 0 auto;
+    }
+  }
+}
+
 .interested {
   margin-top: 40px;
   padding-bottom: 40px;
@@ -3612,7 +3693,8 @@ header {
         .label {
           padding: 0 5px;
           font-size: 12px;
-          background-color: #b4d4a2;
+          background-color: $black;
+          color: #fff;
         }
       }
     }
@@ -5533,7 +5615,8 @@ header {
           width: 32px;
           height: 32px;
           margin-bottom: 20px;
-          background: url("/img/about_us/about_dec4.svg") no-repeat 50% $black;
+          background: url("/img/logo.svg") no-repeat 50% $black;
+          background-size: 90%;
         }
         p {
           font-size: 22px;
