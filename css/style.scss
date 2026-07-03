@@ -204,13 +204,13 @@ ol {
     color: #fff;
     background-color: $black;
     &::after {
-      background: url("/img/arrow_white.svg") no-repeat 50%;
+      background: url("../img/arrow_white.svg") no-repeat 50%;
     }
     &:hover {
       color: $black;
       background-color: #fff;
       &::after {
-        background: url("/img/arrow_black.svg") no-repeat 50%;
+        background: url("../img/arrow_black.svg") no-repeat 50%;
       }
     }
   }
@@ -218,13 +218,13 @@ ol {
     color: $black;
     background-color: #fff;
     &::after {
-      background: url("/img/arrow_black.svg") no-repeat 50%;
+      background: url("../img/arrow_black.svg") no-repeat 50%;
     }
     &:hover {
       color: #fff;
       background-color: $black;
       &::after {
-        background: url("/img/arrow_white.svg") no-repeat 50%;
+        background: url("../img/arrow_white.svg") no-repeat 50%;
       }
     }
   }
@@ -233,14 +233,14 @@ ol {
     background-color: $orange;
     border: 1px solid $orange;
     &::after {
-      background: url("/img/arrow_white.svg") no-repeat 50%;
+      background: url("../img/arrow_white.svg") no-repeat 50%;
     }
     &:hover {
       color: $black;
       background-color: #fff;
       border: 1px solid $black;
       &::after {
-        background: url("/img/arrow_black.svg") no-repeat 50%;
+        background: url("../img/arrow_black.svg") no-repeat 50%;
       }
     }
   }
@@ -459,7 +459,7 @@ ol {
         content: "";
         width: 24px;
         height: 24px;
-        background: url("/img/arrow_black.svg") no-repeat 50%;
+        background: url("../img/arrow_black.svg") no-repeat 50%;
         transform: rotate(-45deg);
       }
       &:hover {
@@ -523,7 +523,7 @@ ol {
         width: 40px;
         height: 40px;
         border-radius: 20px;
-        background: url("/img/basket.svg") no-repeat 50% #f7f7f7;
+        background: url("../img/basket.svg") no-repeat 50% #f7f7f7;
         font-size: 0;
         opacity: 1;
         pointer-events: all;
@@ -558,7 +558,7 @@ ol {
       content: "";
       width: 24px;
       height: 24px;
-      background: url("/img/more.svg") no-repeat 50%;
+      background: url("../img/more.svg") no-repeat 50%;
     }
     &:hover {
       border: 1px solid $black;
@@ -661,17 +661,17 @@ ol {
     height: 40px;
     border: 1px solid $black;
     &:first-of-type {
-      background: url("/img/minus.svg") no-repeat 50%;
+      background: url("../img/minus.svg") no-repeat 50%;
       &:hover {
         border: 1px solid $grey;
-        background: url("/img/minus.svg") no-repeat 50% $grey;
+        background: url("../img/minus.svg") no-repeat 50% $grey;
       }
     }
     &:last-of-type {
-      background: url("/img/plus.svg") no-repeat 50%;
+      background: url("../img/plus.svg") no-repeat 50%;
       &:hover {
         border: 1px solid $grey;
-        background: url("/img/plus.svg") no-repeat 50% $grey;
+        background: url("../img/plus.svg") no-repeat 50% $grey;
       }
     }
   }
@@ -733,9 +733,9 @@ ol {
         position: absolute;
         top: 20px;
         right: 20px;
-        background: url("/img/close.svg") no-repeat 50%;
+        background: url("../img/close.svg") no-repeat 50%;
         &:hover {
-          background: url("/img/close_white.svg") no-repeat 50% $black;
+          background: url("../img/close_white.svg") no-repeat 50% $black;
         }
       }
     }
@@ -886,7 +886,7 @@ header {
         content: "";
         width: 12px;
         height: 12px;
-        background: url("/img/arrow.svg") no-repeat 50%;
+        background: url("../img/arrow.svg") no-repeat 50%;
       }
     }
     a {
@@ -949,7 +949,7 @@ header {
       button {
         width: 16px;
         height: 16px;
-        background: url("/img/search.svg") no-repeat 50%;
+        background: url("../img/search.svg") no-repeat 50%;
         flex-shrink: 0;
       }
     }
@@ -962,7 +962,7 @@ header {
         flex-shrink: 0;
         width: 40px;
         height: 40px;
-        background: url("/img/basket.svg") no-repeat 50%;
+        background: url("../img/basket.svg") no-repeat 50%;
         position: relative;
         span {
           position: absolute;
@@ -985,7 +985,7 @@ header {
         }
       }
       .compare_btn {
-        background: url("/img/compare.svg") no-repeat 50%;
+        background: url("../img/compare.svg") no-repeat 50%;
       }
       .tel {
         display: flex;
@@ -1000,7 +1000,7 @@ header {
           content: "";
           width: 24px;
           height: 24px;
-          background: url("/img/phone.svg") no-repeat 50%;
+          background: url("../img/phone.svg") no-repeat 50%;
         }
       }
       .map {
@@ -1014,18 +1014,18 @@ header {
           content: "";
           width: 24px;
           height: 24px;
-          background: url("/img/header_tel.svg") no-repeat 50%;
+          background: url("../img/header_tel.svg") no-repeat 50%;
         }
       }
       .inst {
         width: 24px;
         height: 24px;
-        background: url("/img/inst.svg") no-repeat 50%;
+        background: url("../img/inst.svg") no-repeat 50%;
       }
       .telegram {
         width: 24px;
         height: 24px;
-        background: url("/img/telegram.svg") no-repeat 50% / 90%;
+        background: url("../img/telegram.svg") no-repeat 50% / 90%;
       }
     }
     .burger {
@@ -1390,7 +1390,7 @@ header {
       button {
         width: 20px;
         height: 20px;
-        background: url("/img/slider_arrow.svg") no-repeat 50%;
+        background: url("../img/slider_arrow.svg") no-repeat 50%;
         &.prev {
           transform: rotate(180deg);
         }
@@ -1872,7 +1872,7 @@ header {
               height: 30px;
               border-radius: 15px;
               border: 1px solid $black;
-              background: url("/img/arrow_black.svg") no-repeat 50% #fff;
+              background: url("../img/arrow_black.svg") no-repeat 50% #fff;
               font-size: 0;
               z-index: 2;
             }
@@ -2137,7 +2137,7 @@ header {
         content: "";
         width: 24px;
         height: 24px;
-        background: url("/img/filters.svg") no-repeat 50%;
+        background: url("../img/filters.svg") no-repeat 50%;
       }
       &:hover {
         background-color: $grey;
@@ -2147,7 +2147,7 @@ header {
           content: "";
           width: 24px;
           height: 24px;
-          background: url("/img/filters_open.svg") no-repeat 50%;
+          background: url("../img/filters_open.svg") no-repeat 50%;
         }
       }
     }
@@ -2170,7 +2170,7 @@ header {
           content: "";
           width: 8px;
           height: 8px;
-          background: url("/img/close8x8.svg");
+          background: url("../img/close8x8.svg");
         }
         &:hover {
           border: 1px solid $black;
@@ -2214,7 +2214,7 @@ header {
           content: "";
           width: 12px;
           height: 12px;
-          background: url("/img/arrow.svg") no-repeat 50%;
+          background: url("../img/arrow.svg") no-repeat 50%;
           transform: rotate(180deg);
         }
         &.on {
@@ -2272,7 +2272,7 @@ header {
               & ~ .brand_name,
               & ~ .color {
                 &::after {
-                  background: url("/img/check.svg") no-repeat 50%;
+                  background: url("../img/check.svg") no-repeat 50%;
                 }
               }
             }
@@ -2543,7 +2543,7 @@ header {
         content: "";
         width: 18px;
         height: 18px;
-        background: url("/img/basket_white.svg") no-repeat 50%;
+        background: url("../img/basket_white.svg") no-repeat 50%;
       }
       &:hover {
         transform: scale(0.95);
@@ -2968,7 +2968,7 @@ header {
             border-radius: 24px;
             border: 1px solid $black;
             font-size: 0;
-            background: url("/img/arrow_black.svg") no-repeat 50%;
+            background: url("../img/arrow_black.svg") no-repeat 50%;
             &.slick-disabled {
               opacity: 0.3;
             }
@@ -3085,7 +3085,7 @@ header {
           border: 1px solid $black;
           border-radius: 15px;
           flex-shrink: 0;
-          background: url("/img/arrow_black.svg") no-repeat 50%;
+          background: url("../img/arrow_black.svg") no-repeat 50%;
           &.slick-disabled {
             opacity: 0.3;
           }
@@ -3215,7 +3215,7 @@ header {
               content: "";
               width: 18px;
               height: 18px;
-              background: url("/img/basket_white.svg") no-repeat 50%;
+              background: url("../img/basket_white.svg") no-repeat 50%;
             }
           }
           &:nth-child(2) {
@@ -3227,7 +3227,7 @@ header {
             border: 1px solid transparent;
             width: 40px;
             height: 40px;
-            background: url("/img/compare.svg") no-repeat 50% $grey;
+            background: url("../img/compare.svg") no-repeat 50% $grey;
             &:hover {
               border: 1px solid $black;
             }
@@ -3718,9 +3718,9 @@ header {
         flex-shrink: 0;
         width: 24px;
         height: 24px;
-        background: url("/img/close.svg") no-repeat 50%;
+        background: url("../img/close.svg") no-repeat 50%;
         &:hover {
-          background: url("/img/close_white.svg") no-repeat 50% $black;
+          background: url("../img/close_white.svg") no-repeat 50% $black;
         }
       }
     }
@@ -4022,9 +4022,9 @@ header {
             width: 24px;
             height: 24px;
             margin-right: 15px;
-            background: url("/img/close.svg") no-repeat 50%;
+            background: url("../img/close.svg") no-repeat 50%;
             &:hover {
-              background: url("/img/close_white.svg") no-repeat 50% $black;
+              background: url("../img/close_white.svg") no-repeat 50% $black;
             }
           }
         }
@@ -4262,31 +4262,31 @@ header {
     width: 30px;
     height: 30px;
     &.v1 {
-      background: url("/img/about_us/about_dec1.svg") no-repeat 50% #bfb19f;
+      background: url("../img/about_us/about_dec1.svg") no-repeat 50% #bfb19f;
     }
     &.v2 {
-      background: url("/img/about_us/about_dec2.svg") no-repeat 50% $black;
+      background: url("../img/about_us/about_dec2.svg") no-repeat 50% $black;
     }
     &.v3 {
-      background: url("/img/about_us/about_dec3.svg") no-repeat 50% #bfb19f;
+      background: url("../img/about_us/about_dec3.svg") no-repeat 50% #bfb19f;
     }
     &.v4 {
-      background: url("/img/about_us/about_dec4.svg") no-repeat 50% $black;
+      background: url("../img/about_us/about_dec4.svg") no-repeat 50% $black;
     }
     &.v5 {
-      background: url("/img/about_us/about_dec4.svg") no-repeat 50% #b4d4a2;
+      background: url("../img/about_us/about_dec4.svg") no-repeat 50% #b4d4a2;
     }
     &.v6 {
-      background: url("/img/about_us/about_dec1.svg") no-repeat 50% $grey;
+      background: url("../img/about_us/about_dec1.svg") no-repeat 50% $grey;
     }
     &.v7 {
-      background: url("/img/about_us/about_dec4.svg") no-repeat 50% #838383;
+      background: url("../img/about_us/about_dec4.svg") no-repeat 50% #838383;
     }
     &.v8 {
-      background: url("/img/about_us/about_dec4.svg") no-repeat 50% #bfb19f;
+      background: url("../img/about_us/about_dec4.svg") no-repeat 50% #bfb19f;
     }
     &.v9 {
-      background: url("/img/about_us/about_dec3.svg") no-repeat 50% #333333;
+      background: url("../img/about_us/about_dec3.svg") no-repeat 50% #333333;
     }
   }
   .info {
@@ -4312,16 +4312,16 @@ header {
         justify-content: center;
       }
       &:nth-child(1) .img {
-        background: url("/img/about_us/about_info1.svg") no-repeat 50%;
+        background: url("../img/about_us/about_info1.svg") no-repeat 50%;
       }
       &:nth-child(2) .img {
-        background: url("/img/about_us/about_info2.svg") no-repeat 50%;
+        background: url("../img/about_us/about_info2.svg") no-repeat 50%;
       }
       &:nth-child(3) .img {
-        background: url("/img/about_us/about_info3.svg") no-repeat 50%;
+        background: url("../img/about_us/about_info3.svg") no-repeat 50%;
       }
       &:nth-child(4) .img {
-        background: url("/img/about_us/about_info4.svg") no-repeat 50%;
+        background: url("../img/about_us/about_info4.svg") no-repeat 50%;
       }
       h3 {
         font-size: 28px;
@@ -4338,16 +4338,16 @@ header {
         background-color: #333333;
         color: #fff;
         &:nth-child(1) .img {
-          background: url("/img/about_us/about_info1_w.svg") no-repeat 50%;
+          background: url("../img/about_us/about_info1_w.svg") no-repeat 50%;
         }
         &:nth-child(2) .img {
-          background: url("/img/about_us/about_info2_w.svg") no-repeat 50%;
+          background: url("../img/about_us/about_info2_w.svg") no-repeat 50%;
         }
         &:nth-child(3) .img {
-          background: url("/img/about_us/about_info3_w.svg") no-repeat 50%;
+          background: url("../img/about_us/about_info3_w.svg") no-repeat 50%;
         }
         &:nth-child(4) .img {
-          background: url("/img/about_us/about_info4_w.svg") no-repeat 50%;
+          background: url("../img/about_us/about_info4_w.svg") no-repeat 50%;
         }
       }
     }
@@ -4694,7 +4694,7 @@ header {
           content: "";
           width: 32px;
           height: 32px;
-          background: url("/img/about_us/about_dec4.svg") no-repeat 50% $black;
+          background: url("../img/about_us/about_dec4.svg") no-repeat 50% $black;
         }
         p {
           &:last-child {
@@ -4821,7 +4821,7 @@ header {
         width: 24px;
         height: 24px;
         transform: rotate(-45deg);
-        background: url("/img/arrow_black.svg") no-repeat 50%;
+        background: url("../img/arrow_black.svg") no-repeat 50%;
       }
     }
     &:hover {
@@ -5036,7 +5036,7 @@ header {
             width: 36px;
             height: 36px;
             border-radius: 18px;
-            background: url("/img/arrow_white.svg") no-repeat 50% #333333;
+            background: url("../img/arrow_white.svg") no-repeat 50% #333333;
             position: absolute;
             top: 0;
             bottom: 0;
@@ -5615,7 +5615,7 @@ header {
           width: 32px;
           height: 32px;
           margin-bottom: 20px;
-          background: url("/img/logo.svg") no-repeat 50% $black;
+          background: url("../img/logo.svg") no-repeat 50% $black;
           background-size: 90%;
         }
         p {
@@ -5644,7 +5644,7 @@ header {
           width: 32px;
           height: 32px;
           margin-right: 10px;
-          background: url("/img/phone_white.svg") no-repeat 50% $black;
+          background: url("../img/phone_white.svg") no-repeat 50% $black;
         }
         span {
           color: #838383;
@@ -6017,7 +6017,7 @@ header {
       flex-shrink: 0;
       width: 34px;
       height: 34px;
-      background: url("/img/arrow_black.svg") no-repeat 50%;
+      background: url("../img/arrow_black.svg") no-repeat 50%;
       background-size: 100%;
       transform: rotate(-45deg);
       transition: none;
@@ -6026,7 +6026,7 @@ header {
       background-color: #333333;
       color: #fff;
       .arrow {
-        background: url("/img/arrow_white.svg") no-repeat 50%;
+        background: url("../img/arrow_white.svg") no-repeat 50%;
         background-size: 100%;
       }
     }
@@ -6245,12 +6245,12 @@ header {
         button {
           width: 20px;
           height: 20px;
-          background: url("/img/close.svg") no-repeat 50%;
+          background: url("../img/close.svg") no-repeat 50%;
           position: absolute;
           top: 0;
           right: 0;
           &:hover {
-            background: url("/img/close_white.svg") no-repeat 50% $black;
+            background: url("../img/close_white.svg") no-repeat 50% $black;
           }
         }
         a {
@@ -6317,7 +6317,7 @@ header {
           content: "";
           width: 18px;
           height: 18px;
-          background: url("/img/basket_white.svg") no-repeat 50%;
+          background: url("../img/basket_white.svg") no-repeat 50%;
         }
         &:hover {
           transform: scale(0.95);
