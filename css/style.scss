@@ -5064,7 +5064,7 @@ header {
             &:nth-child(1) {
               width: calc(55% - 10px);
             }
-            &:nth-child(3) {
+            &:nth-child(2) {
               width: calc(45% - 10px);
             }
           }
@@ -5194,7 +5194,7 @@ header {
               &:nth-child(1) {
                 width: 100%;
               }
-              &:nth-child(3) {
+              &:nth-child(2) {
                 display: none;
               }
             }

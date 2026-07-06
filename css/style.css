@@ -5655,7 +5655,7 @@ header .layer2 .nav {
 .projects .cont .item.v2 .pictures a:nth-child(1) {
   width: calc(55% - 10px);
 }
-.projects .cont .item.v2 .pictures a:nth-child(3) {
+.projects .cont .item.v2 .pictures a:nth-child(2) {
   width: calc(45% - 10px);
 }
 .projects .cont .item:nth-child(2n + 1) p {
@@ -5771,7 +5771,7 @@ header .layer2 .nav {
   .projects .cont .item.v2 .pictures a:nth-child(1) {
     width: 100%;
   }
-  .projects .cont .item.v2 .pictures a:nth-child(3) {
+  .projects .cont .item.v2 .pictures a:nth-child(2) {
     display: none;
   }
   .projects .cont .item.v2 .pictures p {
