@@ -2859,7 +2859,8 @@ header {
   padding-bottom: 44px;
   .cont {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px 60px;
     .title {
       height: max-content;
       display: flex;
@@ -2894,7 +2895,7 @@ header {
       }
     }
     .visual {
-      width: 51.7%;
+      width: 52%;
       position: relative;
       .labels_box {
         position: absolute;
@@ -3104,25 +3105,19 @@ header {
       }
     }
     .info {
-      width: 43.2%;
+      width: calc(48% - 60px);
       display: flex;
       flex-wrap: wrap;
       gap: 18px 10px;
       height: max-content;
       .price {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 15px;
         width: 100%;
         & > div {
           display: flex;
           gap: 10px;
-          &:first-child {
-            .current,
-            .old {
-              font-size: 12px;
-            }
-          }
         }
         .current {
           font-size: 18px;
@@ -3164,32 +3159,6 @@ header {
           }
           span {
             font-size: 14px;
-          }
-        }
-      }
-      .params {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0 40px;
-        div {
-          width: calc(50% - 20px);
-          padding: 8px 0 6px;
-          border-bottom: 1px solid #d9d9d9;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 20px;
-          p,
-          span {
-            width: calc(60% - 10px);
-            font-size: 12px;
-            line-height: 18px;
-            font-weight: 300;
-          }
-          span {
-            width: calc(40% - 10px);
-            text-align: right;
           }
         }
       }
@@ -3239,7 +3208,6 @@ header {
       }
       .text {
         width: 100%;
-        margin-top: 8px;
         p {
           font-size: 16px;
           line-height: 26px;
@@ -3312,6 +3280,32 @@ header {
               }
             }
           }
+        }
+      }
+    }
+    .params {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 40px;
+      div {
+        width: calc(50% - 20px);
+        padding: 8px 0 6px;
+        border-bottom: 1px solid #d9d9d9;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        p,
+        span {
+          width: calc(60% - 10px);
+          font-size: 12px;
+          line-height: 18px;
+          font-weight: 300;
+        }
+        span {
+          width: calc(40% - 10px);
+          text-align: right;
         }
       }
     }
@@ -3396,9 +3390,6 @@ header {
             font-weight: 400;
           }
         }
-        .params {
-          display: none;
-        }
         .purpose {
           flex-direction: column;
           gap: 0;
@@ -3421,11 +3412,9 @@ header {
           width: 100%;
           button {
             position: relative;
-            &:first-child {
-              width: 100%;
-            }
+            &:first-child,
             &:nth-child(2) {
-              width: calc(100% - 60px);
+              width: 100%;
             }
           }
         }
@@ -3444,6 +3433,11 @@ header {
             width: 100%;
             padding: 13px 20px 13px 30px;
           }
+        }
+      }
+      .params {
+        div {
+          width: 100%;
         }
       }
     }

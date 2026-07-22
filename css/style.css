@@ -3183,9 +3183,9 @@ header .layer2 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 30px 60px;
 }
 .product .cont .title {
   height: -moz-max-content;
@@ -3232,7 +3232,7 @@ header .layer2 .nav {
   color: #fff;
 }
 .product .cont .visual {
-  width: 51.7%;
+  width: 52%;
   position: relative;
 }
 .product .cont .visual .labels_box {
@@ -3479,7 +3479,7 @@ header .layer2 .nav {
   transform: scale(0.9);
 }
 .product .cont .info {
-  width: 43.2%;
+  width: calc(48% - 60px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3494,10 +3494,8 @@ header .layer2 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 15px;
   width: 100%;
 }
@@ -3506,10 +3504,6 @@ header .layer2 .nav {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
-}
-.product .cont .info .price > div:first-child .current,
-.product .cont .info .price > div:first-child .old {
-  font-size: 12px;
 }
 .product .cont .info .price .current {
   font-size: 18px;
@@ -3558,41 +3552,6 @@ header .layer2 .nav {
 }
 .product .cont .info .purpose div span {
   font-size: 14px;
-}
-.product .cont .info .params {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 0 40px;
-}
-.product .cont .info .params div {
-  width: calc(50% - 20px);
-  padding: 8px 0 6px;
-  border-bottom: 1px solid #d9d9d9;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  gap: 20px;
-}
-.product .cont .info .params div p,
-.product .cont .info .params div span {
-  width: calc(60% - 10px);
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 300;
-}
-.product .cont .info .params div span {
-  width: calc(40% - 10px);
-  text-align: right;
 }
 .product .cont .info .buttons {
   display: -webkit-box;
@@ -3650,7 +3609,6 @@ header .layer2 .nav {
 }
 .product .cont .info .text {
   width: 100%;
-  margin-top: 8px;
 }
 .product .cont .info .text p {
   font-size: 16px;
@@ -3722,6 +3680,41 @@ header .layer2 .nav {
 .product .cont .info.v2 .buttons button:first-child::before {
   display: none;
 }
+.product .cont .params {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 0 40px;
+}
+.product .cont .params div {
+  width: calc(50% - 20px);
+  padding: 8px 0 6px;
+  border-bottom: 1px solid #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
+}
+.product .cont .params div p,
+.product .cont .params div span {
+  width: calc(60% - 10px);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.product .cont .params div span {
+  width: calc(40% - 10px);
+  text-align: right;
+}
 
 @media (max-width: 950px) {
   .product .cont {
@@ -3786,9 +3779,6 @@ header .layer2 .nav {
     line-height: 30px;
     font-weight: 400;
   }
-  .product .cont .info .params {
-    display: none;
-  }
   .product .cont .info .purpose {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3823,11 +3813,9 @@ header .layer2 .nav {
   .product .cont .info .buttons button {
     position: relative;
   }
-  .product .cont .info .buttons button:first-child {
-    width: 100%;
-  }
+  .product .cont .info .buttons button:first-child,
   .product .cont .info .buttons button:nth-child(2) {
-    width: calc(100% - 60px);
+    width: 100%;
   }
   .product .cont .info .calculate_cost {
     width: 100%;
@@ -3848,6 +3836,9 @@ header .layer2 .nav {
   .product .cont .info .wtf_box .item {
     width: 100%;
     padding: 13px 20px 13px 30px;
+  }
+  .product .cont .params div {
+    width: 100%;
   }
 }
 .free_sample {
